@@ -1,47 +1,27 @@
-# Astro Starter Kit: Minimal
+# Scrum Board
 
-```sh
-npm create astro@latest -- --template minimal
-```
+We will be incrementally building a scrum board application.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+URL: https://stackblitz.com/github/MScienceLLC/Frontend-Interview-Test
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Resources
 
-## 🚀 Project Structure
+Feel free to use the following resources to help you build the application.
 
-Inside of your Astro project, you'll see the following folders and files:
+1. [@hello-pangea/dnd](https://github.com/hello-pangea/dnd): A simple drag and drop library for React.
+2. [TailwindCSS](https://tailwindcss.com/docs/): A utility-first CSS framework.
+3. [React](https://react.dev/)
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## DND API
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- \<DragDropContext /> - Wraps the part of your application you want to have drag and drop enabled for
+- \<Droppable /> - An area that can be dropped into. Contains <Draggable />s
+- \<Draggable /> - What can be dragged around
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Tips
 
-Any static assets, like images, can be placed in the `public/` directory.
+The goal isn't to have a finished solution, but to see how you approach the problem. We are looking for clean, maintainable code. You may use the resources, including the examples, but may not copy/paste whole solutions. Demonstrate you understand every line of code you write. Have fun and be creative. Explore! Ask questions!
 
-## 🧞 Commands
+The interviewer is also a resource. Think of them as a team member you can ask for help. They can answer questions, provide guidance, and help you debug. They can also provide feedback on your code and design decisions.
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Use TypeScript and IntelliSense (tab completion) to your advantage. It will help you write better code faster and know what's available to you. Use it to explore component props.
