@@ -4,6 +4,10 @@ We will be incrementally building a scrum board application.
 
 URL: https://stackblitz.com/github/MScienceLLC/Frontend-Interview-Test
 
+## Requirements
+
+A Chrome Web Browser. Stackblitz is on beta for Firefox, and you will encounter some issues.
+
 ## Resources
 
 Feel free to use the following resources to help you build the application.
