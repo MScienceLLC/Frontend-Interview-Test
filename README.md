@@ -22,6 +22,10 @@ Feel free to use the following resources to help you build the application.
 - \<Droppable /> - An area that can be dropped into. Contains <Draggable />s
 - \<Draggable /> - What can be dragged around
 
+## Astro Islands
+
+[Creating an island](https://docs.astro.build/en/concepts/islands/#creating-an-island)
+
 ## Tips
 
 The goal isn't to have a finished solution, but to see how you approach the problem. We are looking for clean, maintainable code. You may use the resources, including the examples, but may not copy/paste whole solutions. Demonstrate you understand every line of code you write. Have fun and be creative. Explore! Ask questions!
