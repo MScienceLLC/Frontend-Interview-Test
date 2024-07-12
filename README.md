@@ -1,6 +1,17 @@
 # Scrum Board
 
-We will be incrementally building a scrum board application.
+We will be building a Scrum Board with Drag and Drop functionality. The only requirement is that you use [@hello-pangea/dnd](https://github.com/hello-pangea/dnd), which has been setup for you. TailwindCSS has also been setup for you to use as needed.
+
+Be creative! You have the flexibility to build the features you want. The starting point for the app is in `src/components/App.tsx`.
+
+We're looking for:
+
+1. How well do you manage your time?
+2. How well do you work as a team? Are you an effective communicator? Do you ask questions?
+3. What features can you add that will make you stand out?
+4. How well can you learn to use a library you've never seen before?
+
+![Example](https://user-images.githubusercontent.com/2182637/53614150-efbed780-3c2c-11e9-9204-a5d2e746faca.gif)
 
 URL: https://stackblitz.com/github/MScienceLLC/Frontend-Interview-Test
 
@@ -21,10 +32,6 @@ Feel free to use the following resources to help you build the application.
 - \<DragDropContext /> - Wraps the part of your application you want to have drag and drop enabled for
 - \<Droppable /> - An area that can be dropped into. Contains <Draggable />s
 - \<Draggable /> - What can be dragged around
-
-## Astro Islands
-
-[Creating an island](https://docs.astro.build/en/concepts/islands/#creating-an-island)
 
 ## Tips
 
